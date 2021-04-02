@@ -17,7 +17,7 @@
      <header class="page-header">
             <div class="page-header__container container">
                 <nav class="page-header__navigation">
-                    <a class="logo link animate__heartBeat" lang="en" href=""><span class="logo--light-theme">Web</span>Studio</a>
+                    <a class="logo link animate__heartBeat" lang="en" href=""><span class="logo__logo-text--accent-color">Web</span>Studio</a>
                     <ul class="page-header__navigation-list list">
                         <li class="page-header__navigation-item link">
                             <a class="page-header__navigation-link link page-header__navigation-link--active" href="">Студия</a>
@@ -32,13 +32,13 @@
                 </nav>
                 <ul class="page-header__contact-list list">
                     <li class="page-header__contact-item">
-                        <a class="page-header__mail-link link" href="mailto:info@devstudio.com">
+                        <a class="mail-link link" href="mailto:info@devstudio.com">
                             <svg class="mail-icon" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope-hover"></use>
                             </svg>info@devstudio.com</a>
                     </li>
                     <li class="page-header__contact-item">
-                        <a class="page-header__tel-link link" href="tel:+380961111111">
+                        <a class="tel-link link" href="tel:+380961111111">
                             <svg class="tel-icon" width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>+38 096 111 11 11</a>
@@ -51,60 +51,60 @@
             <!--Секция Hero-->
             
             <section class="hero">
-                <div class="container">
-                    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
+                <div class="hero__container">
+                    <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+                    <button class="button" type="button" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
 
             <!--Секция Преимущества-->
 
             <section class="advantages">
-                <div class="container">
-                    <h2 class="advantages-title visually-hidden">Преимущества Веб Студии</h2>
+                <div class="advantages__container container">
+                    <h2 class="advantages__title visually-hidden">Преимущества Веб Студии</h2>
                     
-                    <ul class="advantages-list list">
-                        <li class="advantages-list-item">
-                            <div class="advantages-icon-box">
-                                <svg class="advantages-icon" width="70" height="70">
+                    <ul class="advantages__list list">
+                        <li class="advantages__list-item">
+                            <div class="advantages__icon-box">
+                                <svg class="advantages__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-antenna"></use>
                                 </svg>
                             </div>
-                            <h3 class="advantages-list-title">Внимание к деталям</h3>
-                            <p class="advantages-description">Идейные соображения, а также начало повседневной работы по формированию
+                            <h3 class="advantages__designation">Внимание к деталям</h3>
+                            <p class="advantages__description">Идейные соображения, а также начало повседневной работы по формированию
                                 позиции.
                             </p>
                         </li>
-                        <li class="advantages-list-item">
-                            <div class="advantages-icon-box">
-                                <svg class="advantages-icon" width="70" height="70">
+                        <li class="advantages__list-item">
+                            <div class="advantages__icon-box">
+                                <svg class="advantages__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-clock"></use>
                                 </svg>
                             </div>
-                            <h3 class="advantages-list-title">Пунктуальность</h3>
-                            <p class="advantages-description">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                            <h3 class="advantages__designation">Пунктуальность</h3>
+                            <p class="advantages__description">Задача организации, в особенности же рамки и место обучения кадров влечет за
                                 собой.
                             </p>
                         </li>
-                        <li class="advantages-list-item">
-                            <div class="advantages-icon-box">
-                                <svg class="advantages-icon" width="70" height="70">
+                        <li class="advantages__list-item">
+                            <div class="advantages__icon-box">
+                                <svg class="advantages__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="advantages-list-title">Планирование</h3>
-                            <p class="advantages-description">Равным образом консультация с широким активом в значительной степени
+                            <h3 class="advantages__designation">Планирование</h3>
+                            <p class="advantages__description">Равным образом консультация с широким активом в значительной степени
                                 обуславливает.
                             </p>
                         </li>
-                        <li class="advantages-list-item">
-                            <div class="advantages-icon-box">
-                                <svg class="advantages-icon" width="70" height="70">
+                        <li class="advantages__list-item">
+                            <div class="advantages__icon-box">
+                                <svg class="advantages__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="advantages-list-title">Современные технологии</h3>
-                            <p class="advantages-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                            <h3 class="advantages__designation">Современные технологии</h3>
+                            <p class="advantages__description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                             </p>
                         </li>
                     </ul>
@@ -113,29 +113,29 @@
 
             <!--Род деятельности-->
 
-            <section class="company-skills">
-                <div class="container">
-                    <h2 class="company-description">Чем мы занимаемся</h2>
-                    <ul class="skills list">
-                        <li class="skills-gallary-item">
-                            <div class="skills-thumb">
-                                <img class="skills-images" src="./images/what-we-do/img-1.jpg" width="370" height="294"
+            <section class="skills">
+                <div class="skills__container container">
+                    <h2 class="skills__title">Чем мы занимаемся</h2>
+                    <ul class="skills__list list">
+                        <li class="skills__item">
+                            <div class="skills__thumb">
+                                <img class="skills__image" src="./images/what-we-do/img-1.jpg" width="370" height="294"
                                     alt="Веб разработчик стилизирует сайт с помощью каскадной таблицы стилей." />
-                                    <p class="skills-examples">Десктопные приложения</p>
+                                    <p class="skills__example">Десктопные приложения</p>
                             </div>
                         </li>
-                        <li class="skills-gallary-item">
-                            <div class="skills-thumb"> 
-                                <img class="skills-images" src="./images/what-we-do/img-2.jpg" width="370" height="294"
+                        <li class="skills__item">
+                            <div class="skills__thumb"> 
+                                <img class="skills__image" src="./images/what-we-do/img-2.jpg" width="370" height="294"
                                     alt="Веб дизайнер подбирает дизайн сайта для мобильного телефона." />
-                                <p class="skills-examples">Мобильные приложения</p>
+                                <p class="skills__example">Мобильные приложения</p>
                             </div>
                         </li>
-                        <li class="skills-gallary-item">
-                            <div class="skills-thumb">
-                                <img class="skills-images" src="./images/what-we-do/img-3.jpg" width="370" height="294"
+                        <li class="skills__item">
+                            <div class="skills__thumb">
+                                <img class="skills__image" src="./images/what-we-do/img-3.jpg" width="370" height="294"
                                     alt="Веб дизайнер смотрит на палитру цветов на планшете." />
-                                <p class="skills-examples">Дизайнерские решения</p>
+                                <p class="skills__example">Дизайнерские решения</p>
                             </div>
                         </li>
                     </ul>
@@ -358,8 +358,8 @@
      <footer class="footer">    
             <div class="container">
                 <div class="left-side-footer-wrapper">
-                    <a class="logo link" lang="en" href=""><span class="logo-part">Web</span><span
-                            class="logo-dark-background">Studio</span></a>
+                    <a class="logo--footer logo link" lang="en" href=""><span class="logo__logo-text--accent-color">Web</span><span
+                            class="logo__logo-text--dark-theme">Studio</span></a>
                     <address class="address">
                         <ul class="address-list list">
                             <li class="address-list-item">
@@ -412,7 +412,7 @@
                     <b class="footer-form-title">Подпишись на рассылку</b>
                        <form action="#" class="footer-form">
                              <input type="email" class="user-email-footer-input" name="user-email-footer-input" placeholder="E-mail">
-                             <button type="submit" class="footer-form-button">Подписаться
+                             <button type="submit" class="button--footer button">Подписаться
                                 <svg class="footer-send-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon_send"></use>
                                 </svg>
@@ -425,7 +425,7 @@
                 <!-- БЕКДРОП -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal animate__zoomInDown">
-            <button type="button" class="modal-btn-close" data-modal-close>
+            <button class="modal__btn-close" type="button" data-modal-close>
                 <svg class="close-icon" width="11" height="11">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>

@@ -123,7 +123,7 @@ img {
   animation-duration: 3000ms;
 }
 
-.logo--light-theme {
+.logo__logo-text--accent-color {
   color: var(--accent-color);
 }
 
@@ -144,8 +144,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header__mail-link,
-.page-header__tel-link {
+.mail-link,
+.tel-link {
   display: flex;
   align-items: center;
 
@@ -171,10 +171,10 @@ img {
 
 .page-header__navigation-link:hover,
 .page-header__navigation-link:focus,
-.page-header__mail-link:hover,
-.page-header__mail-link:focus,
-.page-header__tel-link:hover,
-.page-header__tel-link:focus {
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: var(--accent-color);
 }
 
@@ -220,13 +220,13 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.hero .container {
+.hero__container {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -240,7 +240,7 @@ img {
   color: var(--third-text-color);
 }
 
-.modal-btn {
+.button {
   min-width: 200px;
   padding: 10px 32px;
 
@@ -433,7 +433,7 @@ img {
   color: var(--accent-color);
 }
 
-.modal-btn-close {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -487,23 +487,23 @@ img {
   padding-bottom: 47px;
 }
 
-.advantages .container {
+.advantages__container {
   display: flex;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.advantages-list-item {
+.advantages__list-item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.advantages-icon-box {
+.advantages__icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -514,7 +514,7 @@ img {
   margin-bottom: 30px;
 }
 
-.advantages-list-title {
+.advantages__designation {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -523,7 +523,7 @@ img {
   margin-bottom: 10px;
 }
 
-.advantages-description {
+.advantages__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -534,19 +534,25 @@ img {
 
 /*РОД ДЕЯТЕЛЬНОСТИ*/
 
-.company-skills {
+.skills {
   padding-top: 47px;
   padding-bottom: 94px;
 }
 
-.skills {
+.skills__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.company-description {
+.skills__item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.skills__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -555,17 +561,11 @@ img {
   margin-bottom: 50px;
 }
 
-.skills-gallary-item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.skills-thumb {
+.skills__thumb {
   position: relative;
 }
 
-.skills-examples {
+.skills__example {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -854,14 +854,14 @@ img {
   flex-direction: column;
 }
 
-.footer .logo {
+.logo--footer {
   display: block;
   margin-right: 0;
   margin-bottom: 20px;
   padding: 0;
 }
 
-.logo-dark-background {
+.logo__logo-text--dark-theme {
   color: var(--third-text-color);
 }
 
@@ -993,7 +993,7 @@ img {
   outline: none;
 }
 
-.footer-form-button {
+.button--footer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1016,11 +1016,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-button:hover,
-.footer-form-button:focus {
+/* .button:hover,
+.button:focus {
   background-color: var(--alternative-accent-color);
   outline: none;
-}
+} */
 
 .footer-send-icon {
   fill: currentColor;
