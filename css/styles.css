@@ -54,7 +54,7 @@ img {
   display: block;
 }
 
-.container {
+.about__container {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
@@ -482,28 +482,28 @@ img {
 
 /* ПРЕИМУЩЕСТВА */
 
-.advantages {
+.about {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
-.advantages__container {
+.about__container--advantages {
   display: flex;
 }
 
-.advantages__list {
+.about__advantages-list {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.advantages__list-item {
+.about__advantages-list-item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.advantages__icon-box {
+.about__icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -514,7 +514,7 @@ img {
   margin-bottom: 30px;
 }
 
-.advantages__designation {
+.about__advantages-designation {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -523,7 +523,7 @@ img {
   margin-bottom: 10px;
 }
 
-.advantages__description {
+.about__advantages-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -534,25 +534,11 @@ img {
 
 /*РОД ДЕЯТЕЛЬНОСТИ*/
 
-.skills {
-  padding-top: 47px;
-  padding-bottom: 94px;
+.about--for-skills {
+  padding-top: 0px;
 }
 
-.skills__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.skills__item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.skills__title {
+.about__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -561,11 +547,24 @@ img {
   margin-bottom: 50px;
 }
 
-.skills__thumb {
+.about__skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about__skills-list-item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.about__skill-thumb {
   position: relative;
 }
 
-.skills__example {
+.about__skill-example {
   position: absolute;
   left: 0;
   bottom: 0;
