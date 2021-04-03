@@ -16,25 +16,23 @@
   margin-top: 30px;
   border-radius: 4px;
   min-height: 90px;
-
   border: 1px solid var(--social-icons-color-light-theme);
   color: var(--social-icons-color-light-theme);
-
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.about__customers-list-item:hover,
-.about__customers-list-item:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .about__customer-icon {
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.about__customers-list-item:hover .about__customer-icon,
-.about__customers-list-item:focus .about__customer-icon {
-  fill: var(--accent-color);
+  .about__customers-list-item:hover &,
+  .about__customers-list-item:focus & {
+    fill: var(--accent-color);
+  }
 }
